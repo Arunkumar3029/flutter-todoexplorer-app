@@ -39,12 +39,24 @@ The project is built with a modular , layered architecture that keeps the codeba
 3. Run `flutter pub get` in the project folder to install dependencies.
 4. Launch the app on your emulator or device with `flutter run`.
 
+###  How to Run
+```bash
+flutter pub get
+flutter run
+```
+
 ### Running Tests
 To verify everything is working perfectly as planned:
 
 ```bash
 flutter test
 ```
+
+### Screenshots
+
+### 🏠 Home Screen
+![Home](assets/images/image.jpeg)
+
 
 
 

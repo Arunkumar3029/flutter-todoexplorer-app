@@ -34,10 +34,14 @@ class TodoCard extends StatelessWidget {
             ),
           ),
         ),
-        title: Text(
-          todo.title,
-          style: const TextStyle(fontWeight: FontWeight.w600),
-          overflow: TextOverflow.ellipsis,
+        title: Tooltip(
+          message: todo.title,
+          child: Text(
+            todo.title,
+            style: const TextStyle(fontWeight: FontWeight.w600),
+            overflow: TextOverflow.ellipsis,
+            maxLines: 1,
+          ),
         ),
         subtitle: Text('ID: ${todo.id} • User: ${todo.userId}'),
         trailing: Row(
