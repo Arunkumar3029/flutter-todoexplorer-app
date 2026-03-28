@@ -5,6 +5,7 @@ A clean, high-performance Flutter application designed for exploring and managin
 ## Key Features
 
 - **Live Data Fetching**: Seamlessly retrieves todos from the JSONPlaceholder API with robust error handling and automatic retry options.
+- **⭐ Personalized Favorites**: Instantly save your top tasks with the interactive star icon and manage them on a dedicated summary screen.
 - **Interactive Tasks**: Instantly toggle any task's status between **Completed** and **Pending** by tapping its status icon.
 - **Precision Search**: Find exactly what you're looking for with real-time keyword search and clear visual highlighting.
 - **Smart Filtering**: Quickly narrow down your list by task status—view all, only completed, or only pending tasks.
@@ -12,7 +13,6 @@ A clean, high-performance Flutter application designed for exploring and managin
 - **Infinite Scrolling**: Optimized pagination that dynamically loads more tasks as you browse, ensuring the app stays fast even with large datasets.
 - **Offline Reliability**: Locally caches your tasks so you can continue using the app even without an active internet connection.
 - **Responsive Layout**: Intelligently adapts your view—switching between a clean single-column list for mobile and a structured grid for larger screens.
-- **Personalized Favorites**: Mark your most important tasks with a star and view them all in one place on a dedicated screen.
 
 ## Technical Overview
 
@@ -55,7 +55,9 @@ flutter test
 ### Screenshots
 
 ### 🏠 Home Screen
-![Home](assets/images/image.jpeg)
+![Home Screen](assets/images/home_screen.jpeg)
+
+
 
 
 
