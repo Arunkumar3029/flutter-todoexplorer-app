@@ -17,7 +17,7 @@ A clean, high-performance Flutter application designed for exploring and managin
 ## Technical Overview
 
 ### Architecture
-The project is built with a modular, layered architecture that keeps the codebase predictable and easy to scale:
+The project is built with a modular , layered architecture that keeps the codebase predictable and easy to scale:
 
 - **Models**: Immutable data structures using `copyWith` for safe and predictable state changes.
 - **Services**: A dedicated layer for all network traffic, isolating external dependencies and handling custom `ApiException` cases.
